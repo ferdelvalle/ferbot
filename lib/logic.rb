@@ -1,7 +1,7 @@
 class RecFood
 
   # Dishes from The Americas
-  @ = %w[]
+  @peruvian = %w[]
   @argentinian = %w[]
   @mexican = %w[]
   @american = %w[]
@@ -28,12 +28,12 @@ class RecFood
   @chinese = %w[]
   @thai = %w[]
   @japanese = %w[]
-  @ = %w[]
+  @vietnamese = %w[]
   @ = %w[]
   @ = %w[]
 
 # Dishes from the Arab world
-@ = %w[]
+@turkish = %w[]
 @ = %w[]
 @ = %w[]
 @ = %w[]
