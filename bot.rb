@@ -1,5 +1,5 @@
 require 'telegram/bot'
-
+# require_relative '../ferbot/ferbot/lib/logic'
 token = '877177203:AAE5tNPbYDt62BTzlWxG02FzYhe6uqQHu88'
 
 Telegram::Bot::Client.run(token) do |bot|
