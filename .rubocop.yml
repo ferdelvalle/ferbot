@@ -4,6 +4,7 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "./spec/spec_helper.rb"
+    - "./ferbot/**/*"
 
   DisplayCopNames: true
 

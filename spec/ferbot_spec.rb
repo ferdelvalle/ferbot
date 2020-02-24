@@ -1,4 +1,4 @@
-require_relative '../bot.rb'
+require_relative '../logic'
 
 RSpec.describe Dishes do
   let(:marray) { [1, 2, 3, 4, 5, 6, 7, 8, 9] }
@@ -20,7 +20,7 @@ RSpec.describe Dishes do
 
     it 'returns the length of an array excluding the last value' do
       outie = Dishes.recommend_dish_index(sarray, 1)
-      expect(outie).to .to eql(4)
+      expect(outie).to eql(4)
     end
   end
 
