@@ -1,4 +1,4 @@
-require_relative '../logic'
+require_relative '../lib/logic'
 
 RSpec.describe Dishes do
   let(:marray) { [1, 2, 3, 4, 5, 6, 7, 8, 9] }

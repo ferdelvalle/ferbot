@@ -41,20 +41,15 @@
     ```
     To see the available directories and files within the one you're currently at.
 
-3. Once you're at the bot's directory, access the **ferbot** folder.
-    ```
-    cd ferbot
-    ```
-
-4. Install the required gems with **blunder**
+3. Install the required gems with **bundler**
 
     **In windows:**
     ```
-    blunde
+    bundle
     ```
     **In a unix terminal:**
     ```
-    blunde
+    bundle
     ```
 
 ## Running
@@ -83,11 +78,6 @@
     ls
     ```
     To see the available directories and files within the one you're currently at.
-
-3. Once you're at the bot's directory, access the **ferbot** folder.
-    ```
-    cd ferbot
-    ```
 
 4. Run the bot 
 
