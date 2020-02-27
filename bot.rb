@@ -1,7 +1,7 @@
 require_relative('./lib/logic.rb')
 require 'telegram/bot'
 
-token = '877177203:AAE5tNPbYDt62BTzlWxG02FzYhe6uqQHu88'
+token = 'goes here'
 
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
